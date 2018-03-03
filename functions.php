@@ -16,3 +16,13 @@ myFunction([
     'element',
     'another element',
 ]);
+
+// Keep a new line before return statement
+public function show($id)
+{
+    checkForId($id);
+    doStuff();
+    doMoreStuff();
+
+    return $object;
+}

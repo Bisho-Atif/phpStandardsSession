@@ -10,6 +10,7 @@ class Test
     {
         if (true) {
         }
+        
         return false;
     }
 }

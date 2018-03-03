@@ -22,5 +22,5 @@ public function show($id)
         abort(404);
     }
 
-    continueExecution();
+    //Continue execution
 }
